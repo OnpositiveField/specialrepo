@@ -10,3 +10,4 @@ def factorial(n):
             print(f"Факториал {n}: {math.factorial(n)}")
     except ValueError:
         print("Ошибка: введите целое число!")
+        factorial(n)
